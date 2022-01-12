@@ -68,7 +68,7 @@ a:hover {
   height: auto;
   text-align: center;
   padding-top: 12vh;
-  padding-bottom: 20vh;
+  padding-bottom: 12vh;
 }
 
 #contents h1 {
@@ -107,7 +107,7 @@ ul li {
   display: inline-block;
   padding: 30px 90px;
   margin: 8px;
-  border-radius: 15px;
+  border-radius: 50px;
   font-family: 'Uni Sans Heavy', 'paybooc-Light', sans-serif;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
   text-decoration: none;
@@ -126,4 +126,30 @@ ul li {
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
   text-decoration: none;
   font-weight: 600;
+  background-color: #5865f2;
+}
+
+.article {
+  display: flex;
+  padding-right: 1vw;
+  padding-left: 1vw;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.837);
+}
+
+.gray {
+  background-color: whitesmoke;
+}
+
+.center {
+  display: inline;
+}
+
+#shallwe h1 {
+  font-size: 2em;
+}
+
+.bottom {
+  background-color: #5865f2;
+  width: 30vw;
 }
