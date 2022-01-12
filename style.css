@@ -29,7 +29,7 @@ a:hover {
 
 .logo {
   width: 35px;
-  margin-top: 14px;
+  margin-top: 24px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -95,18 +95,20 @@ a:hover {
 
 body {
   font-family: 'Uni Sans Heavy';
+  margin: 0;
 }
 
 ul li {
   list-style-type: none;
+  font-weight: bold;
 }
 
 .btn {
   position: relative;
   border: none;
   display: inline-block;
-  padding: 30px 90px;
-  margin: 8px;
+  padding: 20px 70px;
+  margin: 10px;
   border-radius: 50px;
   font-family: 'Uni Sans Heavy', 'paybooc-Light', sans-serif;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
@@ -127,6 +129,7 @@ ul li {
   text-decoration: none;
   font-weight: 600;
   background-color: #5865f2;
+  margin-left: 8vw;
 }
 
 .article {
@@ -152,4 +155,16 @@ ul li {
 .bottom {
   background-color: #5865f2;
   width: 30vw;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.sectionbox {
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  margin-right: 0;
 }
