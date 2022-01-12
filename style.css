@@ -1,0 +1,129 @@
+@charset "utf-8"
+@import url(//db.onlinewebfonts.com/c/4f6fb2fa3c231278167b36e966718cbb?family=Uni+Sans+Heavy);
+@font-face {
+  font-family: 'Uni Sans Heavy';
+  src: url('//db.onlinewebfonts.com/t/4f6fb2fa3c231278167b36e966718cbb.eot');
+  src: url('//db.onlinewebfonts.com/t/4f6fb2fa3c231278167b36e966718cbb.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/4f6fb2fa3c231278167b36e966718cbb.woff2')
+      format('woff2'),
+    url('//db.onlinewebfonts.com/t/4f6fb2fa3c231278167b36e966718cbb.woff')
+      format('woff'),
+    url('//db.onlinewebfonts.com/t/4f6fb2fa3c231278167b36e966718cbb.ttf')
+      format('truetype'),
+    url('//db.onlinewebfonts.com/t/4f6fb2fa3c231278167b36e966718cbb.svg#Uni Sans Heavy')
+      format('svg');
+}
+
+html {
+  font-size: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(68, 68, 68);
+}
+
+.logo {
+  width: 35px;
+  margin-top: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.main-nav {
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+}
+
+.main-nav li {
+  margin-left: 3vw;
+}
+
+.wrapper {
+  max-width: 100vw;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+#wrap {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#contents {
+  width: 100vw;
+  height: auto;
+  text-align: center;
+  padding-top: 12vh;
+  padding-bottom: 20vh;
+}
+
+#contents h1 {
+  font-size: 3rem;
+}
+
+#contents p {
+  padding-left: 10vw;
+  padding-right: 10vw;
+  font-size: 1.2rem;
+}
+
+#footer {
+  width: 100vw;
+  height: 10vh;
+}
+
+#title {
+  background-image: url(images/discord.png);
+  background-size: 100vw;
+
+  background-repeat: no-repeat;
+}
+
+body {
+  font-family: 'Uni Sans Heavy';
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.btn {
+  position: relative;
+  border: none;
+  display: inline-block;
+  padding: 30px 90px;
+  margin: 8px;
+  border-radius: 15px;
+  font-family: 'Uni Sans Heavy', 'paybooc-Light', sans-serif;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: 0.25s;
+}
+
+.btn-open {
+  position: relative;
+  border: none;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 15px;
+  font-family: 'Uni Sans Heavy', 'paybooc-Light', sans-serif;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-weight: 600;
+}
